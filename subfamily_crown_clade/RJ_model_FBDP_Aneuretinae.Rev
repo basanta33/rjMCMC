@@ -1,4 +1,4 @@
-
+num_bins <- 9
 
 # parameters
 
@@ -110,11 +110,7 @@ timeline = v(20, 40, 60, 80, 100, 120, 140, 160, 180)
 
 fbd_dist = dnFBDP(originAge=origin_time, lambda=speciation_rate, mu=extinction_rate, psi=fossilization_rate, timeline = timeline, rho=rho, taxa=taxa, condition="sampling")
 
-crown = clade("Martialis_heureka", "Leptanilla_swani", "Anomalomyrma_sp", "Apomyrma_stygia",
-"Opamyrma_hungvuong", "Amblyopone_pallipes", "Proceratium_stictum", "Paraponera_clavata",
-"Platythyrea_punctata","Pogonomyrmex_californicus", "Tatuidris_tatusia", "Leptogenys_diminuta",
-"Hypoponera_opacior", "Tetraponera_punctulata", "Leptanilloides_nomada","Nothomyrmecia_macrops",
-"Aneuretus_simoni","Lasius_californicus", "Formica_fusca", "Myrmica_americana" )
+crown = clade("Aneuretellus_deformis", "Britaneuretus_anglicus", "Burmomyrma_rossi", "Cananeuretus_occidentalis", "Mianeuretus", "Mianeuretus_eocenicus", "Mianeuretus_mirabilis", "Paraneuretus_dubovikoffi", "Paraneuretus_longicornis", "Paraneuretus_tornquisti", "Pityomyrmex_tornquisti", "Protaneuretus_succineus") ### for Aneuretinae subfamily ###
 
 # The will be a random variable of a constrained topology distribution that is governed by the FBD #
 # this distribution will generate FBD trees that match the monophyly constraints defined above #
