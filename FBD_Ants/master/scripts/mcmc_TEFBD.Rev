@@ -1,7 +1,7 @@
 ################################################################################
 #
 # RevBayes Example: Total-evidence dating under the fossilized birth-death model
-# 
+#
 # This file: Runs the full MCMC ...
 #
 # authors: Tracy A. Heath, Walker C. Pett, April M. Wright
@@ -18,9 +18,9 @@ taxa <- readTaxonData("Data/taxa.tsv")
 # this file contains only the taxa for which sequence data are available #
 filenames <- v("Data/18s.nex", "Data/28s.nex", "Data/ABD.nex","Data/Arg.nex", "Data/CAD.nex", "Data/EF1.nex", "Data/EF2.nex", "Data/lg.nex", "Data/WG.nex")
 #filenames <- v("18s.nex", "28s.nex")
-                                                             
-n_data_subsets <- filenames.size()                            
-for (i in 1:n_data_subsets) {                                 
+
+n_data_subsets <- filenames.size()
+for (i in 1:n_data_subsets) {
    data[i] = readDiscreteCharacterData(filenames[i])
 }
 
@@ -29,10 +29,10 @@ for (i in 1:n_data_subsets) {
 morpho <- readDiscreteCharacterData("Data/AntMegaMatrixMinusAmbig.nex")
 
 # Add the missing taxa to each data partition #
-for (i in 1:n_data_subsets) {                                 
+for (i in 1:n_data_subsets) {
     data[i].addMissingTaxa( taxa )
 }
-       
+
 morpho.addMissingTaxa( taxa )
 
 #starting_tree <- readTrees("Data/MAP.tre")[1]
@@ -62,6 +62,10 @@ mymodel = model(rates_cytb[i])
 # Create a vector of monitors #
 # 1. for the full model #
 monitors[mni++] = mnModel(filename="output/antsSA.log", printgen=10)
+## Checkpoint addition ##
+monitors.append(mnStochasticVariable(filename="output/mcmc-stoch.log", printgen=10))
+#trace = readStochasticVariableTrace(file="output/mcmc-stoch.log")
+#mymcmc.initializeFromTrace(trace)
 # 2. the tree #
 monitors[mni++] = mnFile(filename="output/antsSA.trees", printgen=10, fbd_tree)
 # 3. and a few select parameters to be printed to the screen #

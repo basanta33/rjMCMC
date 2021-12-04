@@ -61,6 +61,10 @@ mymodel = model(rates_cytb[i])
 # Create a vector of monitors #
 # 1. for the full model #
 monitors.append( mnModel(filename="output/skyline.log", printgen=10))
+## Checkpoint addition ##
+monitors.append(mnStochasticVariable(filename="output/mcmc-stoch.log", printgen=10))
+#trace = readStochasticVariableTrace(file="output/mcmc-stoch.log")
+#mymcmc.initializeFromTrace(trace)
 # 2. the tree #
 monitors.append( mnFile(filename="output/skyline.trees", printgen=10, fbd_tree))
 # 3. and a few select parameters to be printed to the screen #
