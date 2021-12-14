@@ -43,7 +43,7 @@ monitors = VectorMonitors()
 n_taxa <- taxa.size()
 n_branches <- 2 * n_taxa - 2
 # Load the model files
-source("scripts/RJ_model_FBDP.Rev") # FBD tree prior
+source("scripts/RJ_model_FBDP_subfamily.Rev") # FBD tree prior
 
 source("scripts/model_UExp_TEFBD.Rev") # UExp relaxed clock
 

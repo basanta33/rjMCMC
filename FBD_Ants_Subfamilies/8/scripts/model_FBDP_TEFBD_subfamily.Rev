@@ -97,6 +97,15 @@ crown = clade("Agroecomyrmecinae", "Amblyoponinae", "Aneuretinae", "Armaniinae",
 constraints = v(crown)
 fbd_tree ~ dnConstrainedTopology(fbd_dist, constraints)
 
+age_Agro := tmrca(fbd_tree, Agroecomyrmecinae)
+age_Ambly := tmrca(fbd_tree, Amblyoponinae)
+age_Aneu := tmrca(fbd_tree, Aneuretinae)
+age_Arm := tmrca(fbd_tree, Armaniinae)
+age_Brown := tmrca(fbd_tree, Brownimeciinae)
+age_Doli := tmrca(fbd_tree, Dolichoderinae)
+age_Dory := tmrca(fbd_tree, Dorylinae)
+age_Ectatomma := tmrca(fbd_tree, Ectatommnae)
+age_Form := tmrca(fbd_tree, Formicinae)
 age_Ectatomma := tmrca(fbd_tree, Ectatomma)
 
 #fbd_tree.setValue(starting_tree)
