@@ -60,9 +60,9 @@ source("scripts/model_Morph_TEFBD.Rev") # Morphological character change model
 mymodel = model(rates_cytb[i])
 # Create a vector of monitors #
 # 1. for the full model #
-monitors.append( mnModel(filename="output/skyline.log", printgen=10))
+monitors.append( mnModel(filename="output/clade_const.log", printgen=10))
 # 2. the tree #
-monitors.append( mnFile(filename="output/skyline.trees", printgen=10, fbd_tree))
+monitors.append( mnFile(filename="output/clade_const.trees", printgen=10, fbd_tree))
 # 3. and a few select parameters to be printed to the screen #
 monitors.append( mnScreen(printgen=10,  num_samp_anc, origin_time))
 #monitors.append( mnScreen(printgen=10)
