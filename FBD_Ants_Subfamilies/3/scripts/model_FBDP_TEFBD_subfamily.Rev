@@ -110,7 +110,7 @@ age_Form := tmrca(fbd_tree, Formiciinae)
 #fbd_tree.setValue(starting_tree)
 
 # Specify mclade(taxon))
-intervals = readDataDelimitedFile(file="Data/ran1.tsv", header=true)
+intervals = readDataDelimitedFile(file="Data/ran3.tsv", header=true)
 
 for(i in 1:intervals.size())
 {
