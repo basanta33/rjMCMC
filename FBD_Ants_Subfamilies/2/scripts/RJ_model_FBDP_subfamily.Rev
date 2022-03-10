@@ -115,7 +115,7 @@ Agroecomyrmecinae = clade("Agroecomyrmex_duisburgi", "Eulithomyrmex_rugosus", "E
 Amblyoponinae = clade("Amblyoponinae", "Amblyoponini", "Casaleia_eocenica", "Casaleia_inversa", "Casaleia_longiventris", "Casaleia_orientalis", "Myopopone_sinensis", "Stigmatomma_electrina", "Stigmatomma_groehni")
 Aneuretinae = clade("Aneuretellus_deformis", "Britaneuretus_anglicus", "Burmomyrma_rossi", "Cananeuretus_occidentalis", "Mianeuretus", "Mianeuretus_eocenicus", "Mianeuretus_mirabilis", "Paraneuretus_dubovikoffi", "Paraneuretus_longicornis", "Paraneuretus_tornquisti", "Pityomyrmex_tornquisti", "Protaneuretus_succineus")
 Armaniinae = clade("Archaeopone_kzylzharica", "Archaeopone_taylori", "Armania", "Armania_capitata", "Armania_curiosa", "Armania_pristina", "Armania_robusta", "Dolichomyrma_latipes", "Dolichomyrma_longiceps", "Khetania_mandibulata", "Orapia_minor", "Orapia_rayneri", "Poneropterus_sphecoides", "Pseudarmania_aberrans", "Pseudarmania_rasnitsyni")
-Brownimeciinae = clade("Brownimecia_clavata")
+#Brownimeciinae = clade("Brownimecia_clavata")
 Dolichoderinae = clade("Alloiomma_changweiensis", "Alloiomma_differentialis", "Asymphylomyrmex_balticus", "Azteca", "Azteca_alpha", "Azteca_eumeces", "Chronomyrmex_medicinehatensis", "Ctenobethylus_goepperti", "Dolichoderinae", "Dolichoderus", "Dolichoderus_(Hypoclinea)_passalomma", "Dolichoderus_affectus", "Dolichoderus_antiquus", "Dolichoderus_balticus", "Dolichoderus_brevicornis", "Dolichoderus_brevipalpis", "Dolichoderus_brevipennis", "Dolichoderus_bruneti", "Dolichoderus_caribbaeus", "Dolichoderus_coquandi", "Dolichoderus_cornutus", "Dolichoderus_dibolius", "Dolichoderus_dlusskyi", "Dolichoderus_elegans", "Dolichoderus_evolans", "Dolichoderus_explicans", "Dolichoderus_granulinotus", "Dolichoderus_heeri", "Dolichoderus_jiaoyanshanensis", "Dolichoderus_kohlsi", "Dolichoderus_kutscheri", "Dolichoderus_kutschlinicus", "Dolichoderus_lacinius", "Dolichoderus_longipennis", "Dolichoderus_longipilosus", "Dolichoderus_lucidus", "Dolichoderus_luridivenosus", "Dolichoderus_mesosternalis", "Dolichoderus_nanus", "Dolichoderus_obliteratus", "Dolichoderus_oviformis", "Dolichoderus_passalomma", "Dolichoderus_perkovskyi", "Dolichoderus_pilipes", "Dolichoderus_pinguis", "Dolichoderus_polessus", "Dolichoderus_polonicus", "Dolichoderus_primitivus", "Dolichoderus_prolaminatus", "Dolichoderus_punctatus", "Dolichoderus_robustus", "Dolichoderus_rohweri", "Dolichoderus_sculpturatus", "Dolichoderus_tauricus", "Dolichoderus_tertiarius", "Dolichoderus_transversipetiolaris", "Dolichoderus_vectensis", "Dolichoderus_vexillarius", "Dolichoderus_vlaskini", "Dolichoderus_zherichini", "Elaeomyrmex_coloradensis", "Elaeomyrmex_gracilis", "Elaphrodites_mutatus", "Elaphrodites_scutulatus", "Eldermyrmex_oblongiceps", "Electromyrmex_klebsi", "Emplastus_antiquus", "Emplastus_biamoensis", "Emplastus_britannicus", "Emplastus_dubius", "Emplastus_elongatus", "Emplastus_gurnetensis", "Emplastus_haueri", "Emplastus_hypolithus", "Emplastus_kozlovi", "Emplastus_macrops", "Emplastus_miocenicus", "Emplastus_ocellus", "Eotapinoma_compacta", "Eotapinoma_gracilis","Eotapinoma_macalpini", "Eurymyrmex_geologicus", "Forelius", "Gracilidris_humiloides", "Iridomyrmex", "Iridomyrmex_shandongicus", "Kotshkorkia_laticeps", "Ktunaxia_jucunda", "Leptomyrmex_neotropicus", "Leptomyrmula_maravignae", "Linepithema", "Liometopum", "Liometopum_bogdassarovi", "Liometopum_eremicum", "Liometopum_imhoffii", "Liometopum_incognitum", "Liometopum_lubricum", "Liometopum_miocenicum", "Liometopum_oligocenicum", "Liometopum_potamophilum", "Liometopum_scudderi", "Miomyrmex_impactus", "Miomyrmex_striatus", "Petraeomyrmex_minimus", "Proiridomyrmex_rotundatus", "Proiridomyrmex_vetulus", "Protazteca_capitata", "Protazteca_elongata", "Protazteca_eocenica", "Protazteca_hendersoni", "Protazteca_quadrata", "Tapinoma", "Tapinoma_aberrans", "Tapinoma_baculum", "Tapinoma_electrinum", "Tapinoma_minutissimum", "Tapinoma_troche", "Technomyrmex_caritatis", "Technomyrmex_deletus", "Technomyrmex_hispaniolae", "Technomyrmex_septentrionalis", "Usomyrma_mirabilis", "Yantaromyrmex_constrictus", "Yantaromyrmex_geinitzi", "Yantaromyrmex_intermedius", "Yantaromyrmex_mayrianum", "Yantaromyrmex_samlandicus", "Zherichinius_horribilis", "Zherichinius_rapax")
 Dorylinae = clade("Acanthostichus_hispaniolicus", "Cylindromyrmex_antillanus", "Cylindromyrmex_electrinus", "Cylindromyrmex_inopinatus", "Dorylinae", "Lioponera", "Neivamyrmex", "Neivamyrmex_ectopus", "Procerapachys_annosus", "Procerapachys_favosus", "Procerapachys_sulcatus")
 Ectatomminae = clade("Canapone_dentata", "Ectatomma_gracile", "Gnamptogenys_brunoi", "Gnamptogenys_casca", "Gnamptogenys_europaea", "Gnamptogenys_levinates", "Gnamptogenys_pristina", "Gnamptogenys_rohdendorfi", "Pseudectatomma_eocenica", "Pseudectatomma_striatula", "Rhytidoponera_gibsoni", "Rhytidoponera_kirghizorum", "Rhytidoponera_waipiata")
@@ -125,19 +125,18 @@ Formiciinae = clade("Titanomyrma_gigantea", "Titanomyrma_lubei", "Titanomyrma_si
 
 # The will be a random variable of a constrained topology distribution that is governed by the FBD #
 # this distribution will generate FBD trees that match the monophyly constraints defined above #
-constraints = v(Agroecomyrmecinae, Amblyoponinae, Aneuretinae, Armaniinae, Brownimeciinae, Dolichoderinae, Dorylinae, Ectatomminae, Formiciinae)
+constraints = v(Agroecomyrmecinae, Amblyoponinae, Aneuretinae, Armaniinae, Dolichoderinae, Dorylinae, Ectatomminae, Formiciinae)
 fbd_tree ~ dnConstrainedTopology(fbd_dist, constraints)
 age_Agro := tmrca(fbd_tree, Agroecomyrmecinae)
 age_Ambly := tmrca(fbd_tree, Amblyoponinae)
 age_Aneu := tmrca(fbd_tree, Aneuretinae)
 age_Arm := tmrca(fbd_tree, Armaniinae)
-age_Brown := tmrca(fbd_tree, Brownimeciinae)
+age_Brown := tmrca(fbd_tree, clade("Brownimecia_clavata"))
 age_Doli := tmrca(fbd_tree, Dolichoderinae)
 age_Dory := tmrca(fbd_tree, Dorylinae)
 age_Ectatomminae := tmrca(fbd_tree, Ectatomminae)
 age_Form := tmrca(fbd_tree, Formiciinae)
 #age_Ectatomma := tmrca(fbd_tree, Ectatomma)
-#fbd_tree.setValue(starting_tree)
 
      moves.append(mvFNPR(fbd_tree, weight=15.0))
 
