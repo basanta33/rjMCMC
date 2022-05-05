@@ -121,6 +121,7 @@ for(i in 1:intervals.size())
  t[i] := tmrca(fbd_tree, clade(taxon))
 #
  fossil[i] ~ dnUniform(t[i] - b_i, t[i] - a_i)
+ fossil_normalized[i] :=  fossil[i] + t[i]
  fossil[i].clamp( 0 )
 }
 # Add a move to sample the fossil times #

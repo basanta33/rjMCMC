@@ -162,6 +162,7 @@ age_Form := tmrca(fbd_tree, Formiciinae)
      b_i = fossils[i].getMaxAge()
 
     F[i] ~ dnUniform(t[i] - b_i, t[i] - a_i)
+		fossil_normalized[i] :=  F[i] + t[i]
      F[i].clamp( 0 )
  }
 
