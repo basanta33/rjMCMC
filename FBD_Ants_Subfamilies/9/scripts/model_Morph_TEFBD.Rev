@@ -15,7 +15,11 @@ moves.append( mvScale(alpha_morpho, lambda=0.01, weight=5.0))
 moves.append( mvScale(alpha_morpho, lambda=0.1,  weight=3.0))
 moves.append( mvScale(alpha_morpho, lambda=1,    weight=1.0))
 
+clock_morpho ~ dnExponential(1.0)
 
+moves.append(mvScale(clock_morpho,lambda=0.01, weight=4.0))
+moves.append(mvScale(clock_morpho, lambda=0.1, weight=4.0))
+moves.append(mvScale(clock_morpho, lambda=1, weight=4.0)) 
 
 
 n_max_states <- 7
@@ -31,6 +35,7 @@ for (i in 2:n_max_states) {
         m_morph[idx] ~ dnPhyloCTMC( tree=fbd_tree,
                                     Q=q[idx],
                                     nSites=nc,
+				    branchRates=clock_morpho,
                                     siteRates=rates_morpho,
                                     type="Standard")           # create model of evolution for the character block
 
