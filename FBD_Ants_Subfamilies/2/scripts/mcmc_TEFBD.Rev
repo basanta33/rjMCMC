@@ -65,12 +65,14 @@ monitors.append( mnModel(filename="output/clade_const1.log", printgen=10))
 monitors.append( mnFile(filename="output/clade_const1.trees", printgen=10, fbd_tree))
 # 3. and a few select parameters to be printed to the screen #
 monitors.append( mnScreen(printgen=10,  num_samp_anc, origin_time))
+#4. stochastic variable for PPS
+monitors.append(mnStochasticVariable(filename="output/clade_const.var", printgen=10))
 #monitors.append( mnScreen(printgen=10)
 # Initialize the MCMC object #
 mymcmc = mcmc(mymodel, monitors, moves)
 
 # Run the MCMC #
-mymcmc.run(generations=2000000)
+mymcmc.run(generations=20000000)
 
 # Quit RevBayes #
 q()
