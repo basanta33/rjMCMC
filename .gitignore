@@ -4,4 +4,6 @@
 #Ignore all the outputs
 */*/output
 
+#ignore folder extra
+Extra/*
 
