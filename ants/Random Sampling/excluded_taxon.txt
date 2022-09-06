@@ -1,0 +1,6 @@
+"Acanthognathus_poinari", "Acanthostichus_hispaniolicus", "Afropone_oculata", "Alloiomma_changweiensis", "Archimyrmex_piatnitzkyi", "Attopsis_longipennis", "Bradoponera_wunderlichi", "Britaneuretus_anglicus","Canapone_dentata", "Casaleia_eocenica", "Ceratomyrmex_ellenbergeri", "Eulithomyrmex_rugosus", "Formicium_berryi", "Paraponera_dieteri", "Pseudomyrmex_extinctus", "Brownimecia_clavata", "Camelomecia_janovitzi", "Gerontoformica_gracilis", "Gerontoformica_magnus", "Gerontoformica_pilosus", "Gerontoformica_spiralis", "Haidomyrmex_scimitarus", "Haidomyrmodes_mammuthus", "Haidoterminus_cippus", "Kyromyrma_sp", "Myanmyrma_gracilis", "Sphecomyrma_freyi"
+
+
+
+Acanthognathus_poinari
+Haidomyrmex_scimitarus
